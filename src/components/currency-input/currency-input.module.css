@@ -1,0 +1,28 @@
+.container,
+.inputs {
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.field {
+    margin-right: 4px;
+    width: 100%;
+    font-size: 24px;
+    padding: 6px;
+}
+
+.select {
+    font-size: 18px;
+}
+
+.caption {
+    margin-bottom: 4px;
+    font-size: 18px;
+    color: #888;
+}

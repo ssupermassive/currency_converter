@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+}
+
+.tab_container {
+    display: flex;
+    margin: 0 -4px;
+}
+
+.tab {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px;
+    margin: 0 4px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.tab:hover {
+    text-decoration: underline;
+}
+
+.active.tab:hover {
+    text-decoration: none;
+}
+
+.tab_text {
+    line-height: 22px;
+}
+
+.active {
+    background-color: #94acea;
+}

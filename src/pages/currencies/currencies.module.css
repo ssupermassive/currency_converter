@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.itemItemplate,
+.headerTemplate {
+    display: flex;
+}
+
+.code_column {
+    margin-left: 12px;
+    margin-right: 6px;
+    width: 34px;
+    flex-shrink: 0;
+}
+
+.name_column {
+    margin-left: 6px;
+    margin-right: 6px;
+    flex-grow: 1;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.value_column {
+    margin-left: 6px;
+    margin-right: 12px;
+    flex-shrink: 0;
+    text-align: end;
+    width: 65px;
+}
